@@ -1,0 +1,17 @@
+2. Mostre o que será impresso por programa supondo que i ocupa o endereço 4094 na memória.
+int i=5, *p;
+p = &i;
+printf("%x %d %d %d %d", p,*p+2,**&p,3**p,**&p+4);
+}
+
+# Respostas #
+
+O primeiro retorna o endereço em hexadecimal (4094) de memória da variável i.
+
+O segundo adiciona 2 onde foi armazenado i, logo 5 + 2 = 7.
+
+O terceiro mostra o conteúdo de onde aponta o ponteiro p, logo 5.
+
+O quarto multiplica p 3 vezes, logo 3 * 5 = 15.
+
+O quinto adiciona 4 onde aponta o ponteiro p, logo i + 4 = 5 + 4 = 9. 
