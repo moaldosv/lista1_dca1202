@@ -1,0 +1,22 @@
+3. Se i e j são variáveis inteiras e p e q ponteiros para int, quais das seguintes expressões de
+atribuição são ilegais?
+
+p = i;
+q = &j;
+p = &*&i;
+i = (*&)j;
+i = *&j;
+i = *&*&j;
+q = *p;
+i = (*p)++ + *q;
+
+# Respostas #
+
+p = i;
+É ilegal pois, como p é ponteiro só deveria receber endereços e não valores.
+
+i = (*&)j;
+É ilegal pois, (*&) não pode ser usado dessa maneira.
+
+q = *p;
+É ilegal pois, q está recebendo um valor e deveria receber apenas endereços.
