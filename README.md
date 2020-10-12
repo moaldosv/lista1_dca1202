@@ -2,4 +2,4 @@
 
 ### Discente: Moaldo Joally Silva de Vasconcelos
 
-Lista de Exercícios referente a primeira unidade de 2020.6
+Lista de Exercícios referente a primeira unidade do semestre 2020.6
