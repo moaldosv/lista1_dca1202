@@ -1,0 +1,16 @@
+7. Considerando a declaração int mat[4], *p, x;, quais das seguintes expressões são válidas?
+Justifique.
+p = mat + 1;
+p = mat++;
+p = ++mat;
+x = (*mat)++;
+
+# Respostas #
+
+p = mat + 1; É válida pq p está recebendo o endereço do segundo valor do vetor mat.
+
+p = mat++; Não é válida pq não é possível o incremento de endereços em vetor.
+
+p = ++mat; Não é válida pq não é possível o incremento de endereços em vetor.
+
+x = (*mat)++; É válida pq x está recebendo o valor da primeira posição do vetor mat e depois esse valor é encrementado.
